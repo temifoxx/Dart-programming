@@ -1,12 +1,6 @@
 void main() {
-  int number1 = 5;
-  int number2 = 8;
-
-  print(number1 + number2);
-  print(number1 - number2);
-  print(number1 / number2);
-  print(number1 ~/ number2);
-  print(number1 * number2);
-  print(number1 % number2);
-  print("Hello dart");
+  double age = 20.0;
+  int age2 = age.toInt();
+  print(age2);
 }
+ 
